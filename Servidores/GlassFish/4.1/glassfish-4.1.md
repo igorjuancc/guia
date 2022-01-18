@@ -49,11 +49,11 @@ AS_JAVA="/usr/lib/jvm/java-8-openjdk-amd64"
 ```
 3 - Salve e inicialize o servidor
 
-### Links Úteis
+## Links Úteis
 
 * [GlassFish](https://javaee.github.io/glassfish/)
 * [Java](https://www.java.com/pt-BR/)
 
-### Referências
+## Referências
 
 ARAUJO, Israel Sousa. Instalando servidor web Glassfish no Ubuntu Server. Medium, 2015. Disponível em: <https://medium.com/israel-araujo/instalando-servidor-web-glassfish-no-ubuntu-server-ecef64a5c95e>. Acesso: 18 de jan. de 2022.
