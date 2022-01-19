@@ -2,6 +2,19 @@
 
 O [GlassFish](https://javaee.github.io/glassfish/) é um servidor de aplicação open source desenvolvido pela Sun Microsystem que implementa tecnologias desenvolvidas na plataforma Java EE.
 
+## Índice
+
+<!--ts-->
+   * [Resumo](#GlassFish-4.1) 
+   * [Índice](#Índice) 
+   * [Instalação e Configuração](#Instalação-e-Configuração)
+   * [Pré-Requisitos](#Pré-Requisitos)  
+   * [Instalação](#Instalação)  
+       * [Ambiente Linux](#Ambiente-Linux)
+   * [Links Úteis](#Links-Úteis)  
+   * [Referências](#Referências)  	
+<!--te-->
+
 ## Instalação e Configuração
 
 ### Pré-Requisitos
@@ -20,7 +33,7 @@ wget download.oracle.com/glassfish/4.1/release/glassfish-4.1.zip
 ```
 
 2 - Descompacte o arquivo
-    * 2.1 - Indicado utilizar a pasta /opt
+* 2.1 - Indicado utilizar a pasta /opt
 ```
 unzip glassfish-4.1.zip -d /opt
 ```
@@ -30,15 +43,15 @@ export PATH=/opt/glassfish4/bin:$PATH
 ```
 
 4 - Configure o caminho da JDK para o servidor 
-    * 4.1 - bra o arquivo asenv.conf da pasta config do glassfish com o editor de texto de sua preferência, aqui utilizaremos o "VI"
+* 4.1 - bra o arquivo asenv.conf da pasta config do glassfish com o editor de texto de sua preferência, aqui utilizaremos o "VI"
 ```
 vi /opt/glassfish4/glassfish/config/asenv.conf
 ```
-    * 4.2 - Insira na última linha do arquivo "AS_JAVA" acompanhado do caminho da JDK no seu computador 
+* 4.2 - Insira na última linha do arquivo "AS_JAVA" acompanhado do caminho da JDK no seu computador 
 ```
 AS_JAVA="/usr/lib/jvm/java-8-openjdk-amd64"
 ```
-    * 4.3 - Salve e feche o editor de texto
+* 4.3 - Salve e feche o editor de texto
 
 
 5 - Finalizado, o servidor GlassFish já pode ser iniciado
