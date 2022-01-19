@@ -6,7 +6,8 @@ O GlassFish é um servidor de aplicação open source desenvolvido pela Sun Micr
 
 ### Pré-Requisitos
 
-* Java Runtime Environment 8 
+* [Java Runtime Environment 8](https://www.java.com/pt-BR/download/manual.jsp)    
+* [Java Development Kit 8](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html)    
 * UnZip (Ou semelhante)
 
 ### Instalação
@@ -28,30 +29,33 @@ unzip glassfish-4.1.zip -d /opt
 export PATH=/opt/glassfish4/bin:$PATH
 ```
 
-4 - Finalizado, o servidor já pode ser iniciado
+4 - Configure o caminho da JDK para o servidor 
+* 4.1 - bra o arquivo asenv.conf da pasta config do glassfish com o editor de texto de sua preferência, aqui utilizaremos o "VI"
+```
+vi /opt/glassfish4/glassfish/config/asenv.conf
+```
+* 4.2 - Insira na última linha do arquivo "AS_JAVA" acompanhado do caminho da JDK no seu computador 
+```
+AS_JAVA="/usr/lib/jvm/java-8-openjdk-amd64"
+```
+* 4.3 - Salve e feche o editor de texto
+
+
+5 - Finalizado, o servidor GlassFish já pode ser iniciado
 ```
 /opt/glassfish4/bin/asadmin start-domain
 ```
 
-### Possíveis erros
-
-#### GlassFish requires Java SE version 6.  Your JDK is version 0
-
-1 - Abra o arquivo asenv.conf da pasta config do glassfish com o editor de texto de sua preferência, aqui utilizaremos o "VI"
+6 - Para encerrar o servidor GlassFish utilize o comando "stop-domain"
 ```
-vi /opt/glassfish4/glassfish/config/asenv.conf
+/opt/glassfish4/bin/asadmin stop-domain
 ```
-
-2 - Insira na última linha do arquivo o caminho do Java 8 no seu computador
-```
-AS_JAVA="/usr/lib/jvm/java-8-openjdk-amd64"
-```
-3 - Salve e inicialize o servidor
 
 ## Links Úteis
 
 * [GlassFish](https://javaee.github.io/glassfish/)
-* [Java](https://www.java.com/pt-BR/)
+* [Java](https://www.java.com/pt-BR/) 
+* [UnZip](https://linuxize.com/post/how-to-unzip-files-in-linux/) 
 
 ## Referências
 
