@@ -42,12 +42,12 @@ unzip glassfish-4.1.zip -d /opt
 export PATH=/opt/glassfish4/bin:$PATH
 ```
 
-4 - Configure o caminho da JDK para o servidor 
-* 4.1 - bra o arquivo asenv.conf da pasta config do glassfish com o editor de texto de sua preferência, aqui utilizaremos o "VI"
+4 - Configure o caminho da JDK no servidor 
+* 4.1 - Abra o arquivo asenv.conf da pasta config do glassfish com o editor de texto de sua preferência, aqui utilizaremos o "VI"
 ```
 vi /opt/glassfish4/glassfish/config/asenv.conf
 ```
-* 4.2 - Insira na última linha do arquivo "AS_JAVA" acompanhado do caminho da JDK no seu computador 
+* 4.2 - Insira na última linha do arquivo de configuração o texto "AS_JAVA=" acompanhado do caminho da JDK no seu computador 
 ```
 AS_JAVA="/usr/lib/jvm/java-8-openjdk-amd64"
 ```
