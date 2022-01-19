@@ -10,7 +10,7 @@ Descrição
    * [Instalação e Configuração](#Instalação-e-Configuração)
    * [Pré-Requisitos](#Pré-Requisitos)  
    * [Instalação](#Instalação)  
-   	- [Ambiente](#Ambiente)
+       * [Ambiente](#Ambiente)
    * [Links Úteis](#Links-Úteis)  
    * [Referências](#Referências)  	
 <!--te-->

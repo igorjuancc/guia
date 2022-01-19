@@ -10,7 +10,7 @@ O [Apache Ant](https://ant.apache.org/) é uma ferramenta utilizada para automa�
    * [Instalação e Configuração](#Instalação-e-Configuração)
    * [Pré-Requisitos](#Pré-Requisitos)  
    * [Instalação](#Instalação)  
-   	* [Ambiente Linux](#Ambiente-Linux)
+       * [Ambiente Linux](#Ambiente-Linux)
    * [Links Úteis](#Links-Úteis)  
    * [Referências](#Referências)  	
 <!--te-->
