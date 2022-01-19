@@ -1,6 +1,6 @@
-# Título (Software ou Ferramenta)
+# Apache Ant 1.10.7
 
-Descrição
+O [Apache Ant](https://ant.apache.org/) é uma ferramenta utilizada para automação de compilação na construção de softwares.
 
 ## Índice
 
@@ -10,7 +10,7 @@ Descrição
    * [Instalação e Configuração](#Instalação-e-Configuração)
    * [Pré-Requisitos](#Pré-Requisitos)  
    * [Instalação](#Instalação)  
-   	* [Ambiente](#Ambiente)
+   	* [Ambiente Linux](#Ambiente-Linux)
    * [Links Úteis](#Links-Úteis)  
    * [Referências](#Referências)  	
 <!--te-->
@@ -19,25 +19,34 @@ Descrição
 
 ### Pré-Requisitos
 
-* Pré-Requisitos para utilização do software ou ferramenta
+* [Java Development Kit 8](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html)    
 
 ### Instalação
 
-Passo a Passo da instalação
+#### Ambiente Linux
 
-#### Ambiente (Linux, Windows, Mac e etc.)
+1 - Utilizando apt-get, utilize os seguintes comandos
+```
+sudo apt update
+sudo apt install ant
+```
 
-1 - Passo [1]
+2 - Confirme a instalação com o comando 
+```
+ant -version
+```
+
+3 - A saída do comando dever ser semelhante a
+```
+Apache Ant(TM) version 1.10.7 compiled on October 24 2019
+```
 
 ## Links Úteis
 
-* [Descrição](URL do site)
-
+* [Apache Ant](https://ant.apache.org/)
 
 ## Referências
 
-com autor: SOBRENOME, Nome. Título da matéria. Nome do site, ano. Disponível em: <URL>. Acesso em: dia, mês e ano.
+HOW to Install Apache Ant on Ubuntu 20.04 | 18.04. Website for Students, 08 de nov. de 2020. Disponível em: <https://websiteforstudents.com/how-to-install-apache-ant-on-ubuntu-20-04-18-04/>. Acesso em: 19 de jan. de 2022.
 
-sem autor: TÍTULO da matéria. Nome do site, ano. Disponível em: <URL>. Acesso em: dia, mês e ano.
-
-SOBRENOME, Nome. Título: subtítulo (se houver). Edição (se houver). Local de publicação: Editora, ano de publicação da obra.
+APACHE Ant. Wikipédia, 14 de jun. de 2019. Disponível em: <https://pt.wikipedia.org/wiki/Apache_Ant/>. Acesso em: 19 de jan. de 2022.

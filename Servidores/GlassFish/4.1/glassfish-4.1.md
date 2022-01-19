@@ -1,6 +1,6 @@
 # GlassFish 4.1
 
-O GlassFish é um servidor de aplicação open source desenvolvido pela Sun Microsystem que implementa tecnologias desenvolvidas na plataforma Java EE.
+O [GlassFish](https://javaee.github.io/glassfish/) é um servidor de aplicação open source desenvolvido pela Sun Microsystem que implementa tecnologias desenvolvidas na plataforma Java EE.
 
 ## Instalação e Configuração
 
