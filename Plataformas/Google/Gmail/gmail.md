@@ -7,8 +7,10 @@ O [Gmail](https://www.google.com/intl/pt-PT/gmail/about/) (também Google Mail) 
 <!--ts-->
    * [Resumo](#Gmail) 
    * [Índice](#Índice) 
-   * [Acesso a app menos seguro](#Acesso-a-app-menos-seguro)
-       * Necessário para JavaMail API   	
+   * [Acesso a app menos seguro](#Acesso-a-app-menos-seguro) (*Necessário para JavaMail API*)        
+       * [Pré-Requisitos](#Pré-Requisitos) 	
+       * [Configuração](#Configuração) 
+   * [Referências](#Referências) 
 <!--te-->
 
 ## Acesso a app menos seguro
