@@ -5,7 +5,7 @@ O [Google Developers](https://developers.google.com/) é uma plataforma do Googl
 ## Índice
 
 <!--ts-->
-   * [Resumo](#Título) 
+   * [Resumo](#Google-Developers) 
    * [Índice](#Índice) 
    * [Configuração de Novo Projeto](#Configuração-de-Novo-Projeto)
        * [Pré-Requisitos](#Pré-Requisitos)  
