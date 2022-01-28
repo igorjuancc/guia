@@ -1,6 +1,6 @@
-# Título (Software ou Ferramenta)
+# Gradle 7.3.3
 
-Descrição
+O Gradle é uma ferramenta utilizada para automação de compilação na construção de softwares. Baseia-se nos conceitos do Apache Ant e Apache Maven e introduz uma linguagem de domínio específico (DSL) baseada em Groovy em vez do XML usado pelo Apache Maven para declarar a configuração do projeto.
 
 ## Índice
 
@@ -20,15 +20,19 @@ Descrição
 
 ### Pré-Requisitos
 
-* Pré-Requisitos para utilização do software ou ferramenta
+* [Java Development Kit 8](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html)
 
 ### Instalação
 
-Passo a Passo da instalação
+#### Ambiente Linux
 
-#### Ambiente (Linux, Windows, Mac e etc.)
+1 - Realize o [download](https://gradle.org/next-steps/?version=7.3.3&format=bin) da aplicação <br />
 
-1 - Passo [1]
+```
+
+```
+
+ 
 
 ## Links Úteis
 
@@ -36,6 +40,10 @@ Passo a Passo da instalação
 
 
 ## Referências
+
+KAINULAINEN, Petri. **Getting Started With Gradle**. Petri Kainulainen. Disponível em <https://www.petrikainulainen.net/getting-started-with-gradle/>. Acesso em: 28 de jan. de 2022. <br />
+GRADLE. Wikipédia, 06 de fev. de 2021. Disponível em: <https://pt.wikipedia.org/wiki/Gradle>. Acesso em: 28 de jan. de 2022. <br />
+INSTALLATION. Gradle. Disponível em: <https://gradle.org/install/>. Acesso em: 28 de jan. de 2022.
 
 com autor: SOBRENOME, Nome. Título da matéria. Nome do site, ano. Disponível em: <URL>. Acesso em: dia, mês e ano.
 
