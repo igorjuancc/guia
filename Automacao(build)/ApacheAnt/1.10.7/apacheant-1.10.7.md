@@ -26,7 +26,7 @@ O [Apache Ant](https://ant.apache.org/) √© uma ferramenta utilizada para automa√
 
 #### Ambiente Linux
 
-1 - Utilizando apt-get, utilize os seguintes comandos
+1 - Utilizando apt-get, execute os seguintes comandos
 ```
 sudo apt update
 sudo apt install ant
