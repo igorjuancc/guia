@@ -20,7 +20,7 @@ O Gradle é uma ferramenta utilizada para automação de compilação na constru
 
 ### Pré-Requisitos
 
-* [Java Development Kit 8](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html)
+* [Java Development Kit 8](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html) (Ou superior)
 
 ### Instalação
 
