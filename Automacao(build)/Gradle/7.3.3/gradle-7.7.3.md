@@ -49,7 +49,7 @@ Gradle 7.3.3
 ``` 
 6 - Para criar uma estrutura básica de um novo projeto, utilize o comando 
 ```
-gradle init --type basic
+$ gradle init --type basic
 ``` 
 
 ## Links Úteis
