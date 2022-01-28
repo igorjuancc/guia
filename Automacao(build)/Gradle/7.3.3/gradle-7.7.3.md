@@ -10,7 +10,7 @@ O Gradle é uma ferramenta utilizada para automação de compilação na constru
    * [Instalação e Configuração](#Instalação-e-Configuração)
    * [Pré-Requisitos](#Pré-Requisitos)  
    * [Instalação](#Instalação)  
-       * [Ambiente](#Ambiente)
+       * [Ambiente Linux](#Ambiente-Linux)
    * [Links Úteis](#Links-Úteis)  
    * [Referências](#Referências)  	
    * [Autor](#Autor)
@@ -27,16 +27,34 @@ O Gradle é uma ferramenta utilizada para automação de compilação na constru
 #### Ambiente Linux
 
 1 - Realize o [download](https://gradle.org/next-steps/?version=7.3.3&format=bin) da aplicação <br />
-
+2 - Crie uma nova pasta e descompacte o arquivo nesse diretório
+```
+$ mkdir /opt/gradle
+$ unzip -d /opt/gradle gradle-7.3.3-bin.zip
+```
+3 - Configure a variável de ambiente PATH para incluir o diretório bin, encontrado na pasta que foi criada no passo anterior e descompactado o arquivo baixado
+```
+ $ export PATH=$PATH:/opt/gradle/gradle-7.3.3/bin
+```
+4 - Confirme a instalação com o comando 
+```
+$ gradle -v
 ```
 
+5 - A saída do comando dever ser semelhante a
 ```
-
- 
+------------------------------------------------------------
+Gradle 7.3.3
+------------------------------------------------------------
+``` 
+6 - Para criar uma estrutura básica de um novo projeto, utilize o comando 
+```
+gradle init --type basic
+``` 
 
 ## Links Úteis
 
-* [Descrição](URL do site)
+* [Gradle Build Tool](https://gradle.org/)
 
 
 ## Referências
@@ -44,14 +62,6 @@ O Gradle é uma ferramenta utilizada para automação de compilação na constru
 KAINULAINEN, Petri. **Getting Started With Gradle**. Petri Kainulainen. Disponível em <https://www.petrikainulainen.net/getting-started-with-gradle/>. Acesso em: 28 de jan. de 2022. <br />
 GRADLE. Wikipédia, 06 de fev. de 2021. Disponível em: <https://pt.wikipedia.org/wiki/Gradle>. Acesso em: 28 de jan. de 2022. <br />
 INSTALLATION. Gradle. Disponível em: <https://gradle.org/install/>. Acesso em: 28 de jan. de 2022.
-
-com autor: SOBRENOME, Nome. Título da matéria. Nome do site, ano. Disponível em: <URL>. Acesso em: dia, mês e ano.
-
-sem autor: TÍTULO da matéria. Nome do site, ano. Disponível em: <URL>. Acesso em: dia, mês e ano.
-
-site com autor: SOBRENOME, Nome. Título: subtítulo (se houver). Edição (se houver). Local de publicação: Editora, ano de publicação da obra.
-
-site sem autor: TÍTULO da matéria. Nome do jornal, cidade de publicação (se houver), dia, mês e ano. Seção (caso exista). Disponível em: . Acesso em: dia, mês e ano.
 
 ## Autor
 <a href="https://br.linkedin.com/in/igor-juan-cordeiro-da-costa-2b4a77101">
