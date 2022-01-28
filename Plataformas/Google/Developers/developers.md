@@ -70,6 +70,7 @@ O [Google Developers](https://developers.google.com/) é uma plataforma do Googl
 <br />
 
 4. API habilitada com sucesso.	
+5. Repita a ação para cada API que será integrada a sua aplicação.
 
 ### Criar e Configurar Credenciais	
 
@@ -129,7 +130,7 @@ O [Google Developers](https://developers.google.com/) é uma plataforma do Googl
 <br />
 
 7. Em escopos, não existe a necessidade de indicar quais serão utilizados, clique em "Salvar e Continuar", todas as funcionalidades estarão disponíveis.
-8. Na tela de usuários de testes, também não há a necessidade de adicionar dados, selecione "Salvar e Continuar". 
+8. Na tela de usuários de testes, adicione o seu email e selecione "Salvar e Continuar". 
 9. Ao final, no ultimo formulario, clique em  "Voltar para o painel".
 10. Configuração de Tela de permissão OAuth finalizada.  
 
