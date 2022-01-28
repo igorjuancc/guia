@@ -14,6 +14,7 @@ Repositório para documentar guias e tutoriais
    * [Plataformas](https://github.com/igorjuancc/guia/tree/main/Plataformas)
        * [Google](https://github.com/igorjuancc/guia/tree/main/Plataformas/Google)
          * [Gmail](https://github.com/igorjuancc/guia/blob/main/Plataformas/Google/Gmail/gmail.md)
+         * [Developers](https://github.com/igorjuancc/guia/blob/main/Plataformas/Google/Developers/developers.md)
    * [Autor](#Autor)
 <!--te-->
 
